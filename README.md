@@ -10,6 +10,7 @@ Description=/usr/lib64/libtdsodbc.so
 Language=us_english
 Database=ODBCDefaultDB
 #Encryption=False
+### MAKE SURE DRIVER = FreeTDS ###
 Driver = FreeTDS
 #Driver=/usr/lib64/libtdsodbc.so
 Servername=<Hostname>
