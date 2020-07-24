@@ -33,4 +33,15 @@ debug flags = 0x80
 client charset = UTF-8
 ```
 
-#### Set Configurations for PostgreSQL
+#### Set Configurations for PostgreSQLin ODBC.ini (SAS Driver)
+```
+[postgresdb01]
+Protocol=8.4
+Description=/usr/pgsql/lib/sas_psqlodbc.so
+Database=cfpb
+Servername=wdcctspml01
+Driver=/usr/pgsql/lib/sas_psqlodbc.so
+SSLmode=require
+Port=5432
+
+```
